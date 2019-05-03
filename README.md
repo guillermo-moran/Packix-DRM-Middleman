@@ -8,20 +8,20 @@ Use this in order to keep your Developer Access Key a secret. Preferably, use HT
 
 If you're using DRMUtils, you can call import it into your tweaks.
 
-```
+```objective-c
 #include ./DRMUtils.h
 ```
 
 Make sure you've set up the macros in DRMUtils.m beforehand.
 
-```
+```objective-c
 #define API_URL @"https://gmoran.me/api/YOUR_KEY.php"
 #define PACKAGE_ID @"com.your.package"
 ```
 
 Calling it is even easier.
 
-```
+```objective-c
 DRMUtils* drm = [[DRMUtils alloc] init];
 int returnCode = [drm packageWasPurchased]; 
 
