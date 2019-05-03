@@ -2,7 +2,8 @@
 
 Middleman is an in-between server for Packix's DRM API.
 
-Use this in order to keep your Developer Access Key a secret. Preferably, use HTTPS if you are going to use it on your own server.
+Use this in order to keep your Developer Access Key a secret. 
+Please use HTTPS if you are going to use it on your own server.
 
 ## Usage
 
