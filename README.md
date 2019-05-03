@@ -36,6 +36,9 @@ else if (returnCode == 1) {
 else {
   // An error with the API Occured
 }
+
+// if you're not using arc, don't forget to manage your memory
+[drm release];
 ```
 
 ## PHP Server 
